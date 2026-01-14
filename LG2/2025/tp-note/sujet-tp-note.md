@@ -26,12 +26,12 @@ suivant :
 "https://data.geopf.fr/wmts?" +
 "SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0" +
 "&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2"+
-"&FORMAT=image/png",
+"&FORMAT=image/png" +
 "&STYLE=normal" +
 "&TILEMATRIXSET=PM" +
 "&TILEMATRIX={z}" +
 "&TILEROW={y}" +
-"&TILECOL={x}" +
+"&TILECOL={x}"
 ```
 
 ### Affichage des ortho-photographies IGN
@@ -43,12 +43,12 @@ flux WMTS suivant :
 "https://data.geopf.fr/wmts?" +
 "SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0" +
 "&LAYER=ORTHOIMAGERY.ORTHOPHOTOS"+
-"&FORMAT=image/jpeg",
+"&FORMAT=image/jpeg" +
 "&STYLE=normal" +
 "&TILEMATRIXSET=PM" +
 "&TILEMATRIX={z}" +
 "&TILEROW={y}" +
-"&TILECOL={x}" +
+"&TILECOL={x}"
 ```
 
 ### Affichage des données sismiques USGS
