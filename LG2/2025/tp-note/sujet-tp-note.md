@@ -3,7 +3,7 @@
 L'objectif de ce TP est de créer une page web affichant différentes données
 géoréférencées.
 
-> Votre travail est à rendre avant le lundi 2 février 2026 à 10h. Vous êtes
+> Votre travail est à rendre avant le mardi 10 février 2026 à 10h. Vous êtes
 > priés pour cela d'envoyer un dossier contenant les fichiers de votre site via
 > un partage
 > [_France transfert_](https://francetransfert.numerique.gouv.fr/upload)
