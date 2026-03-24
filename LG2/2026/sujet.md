@@ -3,7 +3,7 @@
 L'objectif de ce TP est de créer une page web affichant différentes données
 géoréférencées.
 
-> Votre travail est à rendre avant le mardi 10 février 2026 à 10h. Vous êtes
+> Votre travail est à rendre avant le lundi 2 février 2026 à 10h. Vous êtes
 > priés pour cela d'envoyer un dossier contenant les fichiers de votre site via
 > un partage
 > [_France transfert_](https://francetransfert.numerique.gouv.fr/upload)
@@ -26,12 +26,12 @@ suivant :
 "https://data.geopf.fr/wmts?" +
 "SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0" +
 "&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2"+
-"&FORMAT=image/png" +
+"&FORMAT=image/png",
 "&STYLE=normal" +
 "&TILEMATRIXSET=PM" +
 "&TILEMATRIX={z}" +
 "&TILEROW={y}" +
-"&TILECOL={x}"
+"&TILECOL={x}" +
 ```
 
 ### Affichage des ortho-photographies IGN
@@ -43,12 +43,12 @@ flux WMTS suivant :
 "https://data.geopf.fr/wmts?" +
 "SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0" +
 "&LAYER=ORTHOIMAGERY.ORTHOPHOTOS"+
-"&FORMAT=image/jpeg" +
+"&FORMAT=image/jpeg",
 "&STYLE=normal" +
 "&TILEMATRIXSET=PM" +
 "&TILEMATRIX={z}" +
 "&TILEROW={y}" +
-"&TILECOL={x}"
+"&TILECOL={x}" +
 ```
 
 ### Affichage des données sismiques USGS
